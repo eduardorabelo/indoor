@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		828106141226484300753B76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828106131226484300753B76 /* UIKit.framework */; };
+		828106161226484300753B76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828106151226484300753B76 /* Foundation.framework */; };
+		828106181226484300753B76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828106171226484300753B76 /* CoreGraphics.framework */; };
+		8281061D1226484300753B76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8281061B1226484300753B76 /* InfoPlist.strings */; };
+		8281061F1226484300753B76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8281061E1226484300753B76 /* main.m */; };
+		828106221226484300753B76 /* indoorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 828106211226484300753B76 /* indoorAppDelegate.m */; };
+		828106251226484400753B76 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 828106231226484400753B76 /* MainWindow.xib */; };
+		828106281226484400753B76 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 828106271226484400753B76 /* FirstViewController.m */; };
+		8281062B1226484400753B76 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8281062A1226484400753B76 /* SecondViewController.m */; };
+		8281062E1226484400753B76 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8281062C1226484400753B76 /* FirstView.xib */; };
+		828106311226484400753B76 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8281062F1226484400753B76 /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		828106101226484300753B76 /* indoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = indoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		828106131226484300753B76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		828106151226484300753B76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		828106171226484300753B76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		828106191226484300753B76 /* indoor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "indoor-Info.plist"; sourceTree = "<group>"; };
+		8281061A1226484300753B76 /* indoor_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = indoor_Prefix.pch; sourceTree = "<group>"; };
+		8281061C1226484300753B76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8281061E1226484300753B76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		828106201226484300753B76 /* indoorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = indoorAppDelegate.h; sourceTree = "<group>"; };
+		828106211226484300753B76 /* indoorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = indoorAppDelegate.m; sourceTree = "<group>"; };
+		828106241226484400753B76 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		828106261226484400753B76 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		828106271226484400753B76 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		828106291226484400753B76 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8281062A1226484400753B76 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8281062D1226484400753B76 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		828106301226484400753B76 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8281060D1226484300753B76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828106141226484300753B76 /* UIKit.framework in Frameworks */,
+				828106161226484300753B76 /* Foundation.framework in Frameworks */,
+				828106181226484300753B76 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		828106011226484200753B76 = {
+			isa = PBXGroup;
+			children = (
+				828106081226484300753B76 /* Classes */,
+				828106091226484300753B76 /* Other Sources */,
+				8281060A1226484300753B76 /* Resources */,
+				8281060B1226484300753B76 /* Frameworks */,
+				828106111226484300753B76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		828106081226484300753B76 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				828106201226484300753B76 /* indoorAppDelegate.h */,
+				828106211226484300753B76 /* indoorAppDelegate.m */,
+				828106261226484400753B76 /* FirstViewController.h */,
+				828106271226484400753B76 /* FirstViewController.m */,
+				828106291226484400753B76 /* SecondViewController.h */,
+				8281062A1226484400753B76 /* SecondViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		828106091226484300753B76 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8281061A1226484300753B76 /* indoor_Prefix.pch */,
+				8281061E1226484300753B76 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		8281060A1226484300753B76 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				828106191226484300753B76 /* indoor-Info.plist */,
+				8281061B1226484300753B76 /* InfoPlist.strings */,
+				828106231226484400753B76 /* MainWindow.xib */,
+				8281062C1226484400753B76 /* FirstView.xib */,
+				8281062F1226484400753B76 /* SecondView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8281060B1226484300753B76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				828106131226484300753B76 /* UIKit.framework */,
+				828106151226484300753B76 /* Foundation.framework */,
+				828106171226484300753B76 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		828106111226484300753B76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				828106101226484300753B76 /* indoor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8281060F1226484300753B76 /* indoor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 828106341226484400753B76 /* Build configuration list for PBXNativeTarget "indoor" */;
+			buildPhases = (
+				8281060C1226484300753B76 /* Sources */,
+				8281060D1226484300753B76 /* Frameworks */,
+				8281060E1226484300753B76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = indoor;
+			productName = indoor;
+			productReference = 828106101226484300753B76 /* indoor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		828106031226484200753B76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Multimedia University";
+			};
+			buildConfigurationList = 828106061226484200753B76 /* Build configuration list for PBXProject "indoor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 828106011226484200753B76;
+			productRefGroup = 828106111226484300753B76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8281060F1226484300753B76 /* indoor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8281060E1226484300753B76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8281061D1226484300753B76 /* InfoPlist.strings in Resources */,
+				828106251226484400753B76 /* MainWindow.xib in Resources */,
+				8281062E1226484400753B76 /* FirstView.xib in Resources */,
+				828106311226484400753B76 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8281060C1226484300753B76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8281061F1226484300753B76 /* main.m in Sources */,
+				828106221226484300753B76 /* indoorAppDelegate.m in Sources */,
+				828106281226484400753B76 /* FirstViewController.m in Sources */,
+				8281062B1226484400753B76 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8281061B1226484300753B76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8281061C1226484300753B76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		828106231226484400753B76 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				828106241226484400753B76 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8281062C1226484400753B76 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8281062D1226484400753B76 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		8281062F1226484400753B76 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				828106301226484400753B76 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		828106321226484400753B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		828106331226484400753B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		828106351226484400753B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = indoor_Prefix.pch;
+				INFOPLIST_FILE = "indoor-Info.plist";
+				PRODUCT_NAME = indoor;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		828106361226484400753B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = indoor_Prefix.pch;
+				INFOPLIST_FILE = "indoor-Info.plist";
+				PRODUCT_NAME = indoor;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		828106061226484200753B76 /* Build configuration list for PBXProject "indoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828106321226484400753B76 /* Debug */,
+				828106331226484400753B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		828106341226484400753B76 /* Build configuration list for PBXNativeTarget "indoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828106351226484400753B76 /* Debug */,
+				828106361226484400753B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 828106031226484200753B76 /* Project object */;
+}
